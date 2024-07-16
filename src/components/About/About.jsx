@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
+import HeroSection from "../HeroSection";
 
 const About = () => {
-  return (
-    <div>About</div>
-  )
-}
+  const name = "Yogi Ecommerce";
+  return <HeroSection name={name} />;
+};
 
-export default About
+export default About;
